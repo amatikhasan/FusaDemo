@@ -13,6 +13,18 @@
         android:theme="@style/Theme.FusaDemo"
         tools:targetApi="31">
         <activity
+            android:name=".UnfallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProblemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleDetails"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleActivity"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
